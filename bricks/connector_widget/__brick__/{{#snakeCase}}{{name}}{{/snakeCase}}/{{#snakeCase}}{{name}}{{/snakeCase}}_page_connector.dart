@@ -1,6 +1,7 @@
 import 'package:async_redux/async_redux.dart';
 import 'package:flutter/material.dart';
 import './{{name}}_page.dart';
+import '../../state/app_state.dart';
 
 class _{{#pascalCase}}{{name}} page {{/pascalCase}}VM extends BaseModel<AppState> {
   _{{#pascalCase}}{{name}} page {{/pascalCase}}VM();
@@ -14,7 +15,7 @@ class _{{#pascalCase}}{{name}} page {{/pascalCase}}VM extends BaseModel<AppState
 }
 
 class {{#pascalCase}}{{name}} page {{/pascalCase}}Connector extends StatelessWidget {
-  const {{#pascalCase}}{{name}} page {{/pascalCase}}Connector() : super(key: key);
+  const {{#pascalCase}}{{name}} page {{/pascalCase}}Connector({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
