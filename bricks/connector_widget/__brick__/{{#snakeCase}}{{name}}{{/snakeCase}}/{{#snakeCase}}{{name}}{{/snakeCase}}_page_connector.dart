@@ -15,7 +15,7 @@ class _{{#pascalCase}}{{name}} page {{/pascalCase}}VM extends BaseModel<AppState
 }
 
 class {{#pascalCase}}{{name}} page {{/pascalCase}}Connector extends StatelessWidget {
-  const {{#pascalCase}}{{name}} page {{/pascalCase}}Connector({Key key}) : super(key: key);
+  const {{#pascalCase}}{{name}} page {{/pascalCase}}Connector({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
