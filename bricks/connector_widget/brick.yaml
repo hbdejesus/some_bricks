@@ -1,0 +1,5 @@
+name: connector_widget
+description: A brick that generates the files for a feature
+version: 0.0.1
+vars:
+  - name
